@@ -2,7 +2,7 @@
 
 # this package needs a setup.sh 
 # and also a requirements file
-# to set up the calender.sty
+# to set up the calendar.sty
 # use my library stuff for the setup
 
 import calendar
@@ -17,7 +17,7 @@ import mypymod.jinja2tex as j2x
 def my_args():
     des='''
     Enter year and month as integer
-    to generate a A4 month calender page
+    to generate a A4 month calendar page
     '''
     parser = argparse.ArgumentParser(description=des)
     parser.add_argument('-y', '--year', metavar='', type=int, help='is integer', required=True)

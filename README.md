@@ -1,10 +1,10 @@
 # Calender
 
-Create singe page monthly calender sheets
+Create singe page monthly calendar sheets
 
 ## Usage
 
-Latex needs to find the calender.sty file
+Latex needs to find the calendar.sty file
 
 Options:
 ```
